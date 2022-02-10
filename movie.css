@@ -55,16 +55,24 @@ h1{
     color: white;
     align-self: flex-end;
 }
+.row{
+    display: flex;
+    width: 550px;
+}
 .review{
     display: flex;
-    width: 47%;
+    flex-basis: 47%;
+    height: fit-content;
     margin: 2%;
     font-weight: bold;
     background-color: #E1D697;
     border: 2px solid gray;
     flex-wrap: wrap;
+    padding: 8px;
 }
-.review img{
+.overview{
     display: flex;
-    justify-content: start;
+    justify-content: right;
+    width: 250px;
+    background-color: A2B964;
 }

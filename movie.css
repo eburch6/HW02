@@ -24,21 +24,24 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-.content{
+.total{
     display: flex;
-    flex-direction: column;
     width: 800px;
-    height: auto;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     border: 4px solid gray;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 .rating{
     display: flex;
     width: 550px;
     height: 83px;
     background-image: url(rottenbackground.png);
-    column-span: all;
     z-index: -1;
 }
 .rating img{
@@ -55,24 +58,65 @@ h1{
     color: white;
     align-self: flex-end;
 }
-.row{
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: auto;
+}
+.reviews{
     display: flex;
     width: 550px;
 }
-.review{
+.column{
     display: flex;
+    flex-direction: column;
     flex-basis: 47%;
+    padding: 2%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
     height: fit-content;
-    margin: 2%;
     font-weight: bold;
     background-color: #E1D697;
     border: 2px solid gray;
-    flex-wrap: wrap;
     padding: 8px;
 }
-.overview{
+.row img{
+    padding: 5px;
+}
+.reviewer{
     display: flex;
-    justify-content: right;
+    width: auto;
+    height: auto;
+}
+.overview{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
     width: 250px;
-    background-color: A2B964;
+    height: auto;
+    background-color: #A2B964;
+}
+.overview dl{
+    padding-left: 10px;
+}
+.overview dt{
+    font-weight: bold;
+    padding-top: 1em;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #A2B964;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.footer p{
+    text-align: center;
+    width: 100%;
 }

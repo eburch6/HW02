@@ -120,3 +120,8 @@ h1{
     text-align: center;
     width: 100%;
 }
+.valid{
+    background-image: url(http://jigsaw.w3.org/css-validator/images/vcss);
+    align-items: right;
+    background-attachment: fixed;
+}
